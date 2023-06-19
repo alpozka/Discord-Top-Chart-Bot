@@ -1,0 +1,25 @@
+{
+  "name": "topchartbot",
+  "version": "1.0.0",
+  "description": "This bot collect stores data and show top chart games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alp Ozkan",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/rest": "^1.7.1",
+    "app-store-scraper": "^0.17.0",
+    "discord-api-types": "^0.37.42",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.3",
+    "google-play-scraper": "^9.1.1",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.1",
+    "node-json-db": "^2.2.0",
+    "node-schedule": "^2.1.1",
+    "stream": "^0.0.2"
+  }
+}
